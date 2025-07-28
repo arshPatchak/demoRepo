@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Layout using Box Model</title>
+
+    <style>
+         *{
+            margin:5px;
+            background-color: aliceblue;
+         } 
+
+       
+
+        nav,header,main
+        {
+            width:790;
+            border: 2px solid green;
+            padding:3px;
+            background-color: antiquewhite;
+        } 
+
+        #banner
+        {
+            height:100px;
+        }
+
+        #mainContent
+        {
+            height: 80vh;
+            display: flex;
+        }
+
+        #aboutUs
+            {
+                background-color: rgb(235, 235, 16);
+                width:60%;
+            }
+        #ourProducts
+            {
+                background-color: rgb(244, 244, 9); 
+                width:40%;
+            }
+        .articleStyle
+            {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 5px;
+                text-align: justify;
+                line-height: 1.8em;
+                color:maroon;
+            }
+    </style>
+
+</head>
+<body>
+    <nav>Nav Here</nav>
+    <header id="banner">Header here</header>
+    <main id="mainContent">
+        <section id="aboutUs">
+            section here
+                <article class="articleStyle">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore architecto id minus voluptate quibusdam ipsum rem voluptatibus sunt suscipit saepe eaque consectetur sint recusandae, nostrum quas aspernatur! Rerum, ad laboriosam!
+                </article>
+        </section>
+        <aside id="ourProducts">
+            aside here
+        </aside>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>

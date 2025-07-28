@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>This is a Demo using CSS</title>
+    </head>
+        <!--Internal CSS-->
+
+        <style>
+                h2 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: brown;
+                    background-color: aqua;
+                   }
+
+                p {
+                    border: 5px solid rgb(62, 43, 234);
+                    border-radius: 5pt;
+                    margin: 10px;
+                    padding: 5px;
+                    /*background: linear-gradient(rgb(229, 225, 225),rgb(184, 243, 8));*/
+                    background-color: aqua;
+                    text-align: justify;
+                   }   
+
+                body
+                   {
+                    /* margin-top: 100px;
+                    margin-right: 100px;
+                    margin-bottom:100px;
+                    margin-left:100px;
+                    */
+                    margin:100px;
+                    background-color: azure;
+                   }
+                /*this is a CSS using ID selector */   
+                #mainContainer
+                   {
+                    width: auto;
+                    height:auto;
+                    background-color: bisque ;
+                    /*
+                    border-style: solid;
+                    border-width: 2px;
+                    border-color: black;*/
+                    border:5px solid red;
+                    border-radius: 10px;
+                    padding-left: 10;
+                    padding-right: 10;
+                    padding-bottom: 10;
+                   }  
+                  /*This is a CSS using class selector */
+                   .listContent
+                   {
+                    list-style-type: none;
+                   }
+
+                   a 
+                   {
+                    text-decoration: none;
+                   }
+
+                   a:hover {color: chartreuse;}
+                   a:active{background-color: antiquewhite;}
+                   a:visited{color:red}
+
+                   table {
+                       /* border-collapse: collapse;*/
+                        width: 50%;
+                        background-color: aquamarine;
+                        }
+                        th, td {
+                                border: 1px solid black;
+                                padding: 8px;
+                                }
+        </style>
+
+    <body>
+        <div id="mainContainer">
+            <!-- Inline style -->
+            <h2>Using CSS in my HTML Document</h1>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, vero!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, beatae!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, maxime?
+            </p>
+
+            <ul class="listContent">
+                <li><a href="www.fb.com">BSIT</a></li>
+                <li><a href="www.fb.com">BSCS</a></li>
+                <li>BSIS</li>
+                <li>BSCPE</li>
+                <li>BSEMC</li>
+            </ul>
+
+            <table class="tableStyle" >
+                <tr class="tableStyle">
+                    <td class="tableStyle">Cell 1</td>
+                    <td class="tableStyle">CEll 2</td>
+                </tr>
+                <tr>
+                    <td>Cell 3</td>
+                    <td>Cell 4</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

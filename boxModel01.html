@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box Model Demo</title>
+</head>
+<style>
+    body
+    {
+        background-color: beige;    
+    }
+    .style1
+    {
+        background-color: aquamarine;
+    }
+
+    #navMenu,#banner,#mainContainer,#credits
+    {
+        width: 786px;
+        height:100px;
+        border:2px solid black;
+        margin:auto;
+        padding:5px;
+    }
+
+    #banner,#credits
+    {
+    height:150px;
+    margin-top:5px;
+    }
+
+    #mainContainer
+    {
+     height: 300px;
+     margin-top: 5px;
+     display: flex;
+    }
+
+    #aboutUs
+    {
+        width: 50%;
+        padding:10px;
+        background-color: azure;
+        height:auto;
+        
+    }
+
+    #ourProducts
+    {
+        width: 50%;
+        padding:10px;
+        background-color: azure;
+        height:auto;
+        margin-left: 15px;
+        
+    }
+
+    .articleStyle
+    {
+        text-align: justify;
+        color: rgb(48, 7, 114);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 1.6em;
+    }
+
+</style>
+<body>
+    <nav class="style1" id="navMenu">Nav Menu Here</nav>
+    <header class="style1" id="banner"></header>
+    <main class="style1" id="mainContainer">
+        <section class="style1" id="aboutUs">
+            <article class="articleStyle" id="artContent">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta deleniti dolore vel animi dolorum delectus corporis aperiam repudiandae eligendi magnam vitae nesciunt obcaecati vero, officia nemo, eveniet doloribus voluptate tenetur?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam doloremque porro harum placeat dolore quasi cupiditate nam vitae impedit, animi ipsum praesentium neque possimus architecto iure ut accusamus? Molestiae, amet!
+            </article>
+        </section>
+        <aside class="articleStyle" id="ourProducts">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ut necessitatibus, fugit rerum nesciunt quisquam consectetur aspernatur adipisci voluptatem in cumque animi, alias dolores cupiditate blanditiis ipsa nihil eligendi. Iusto.
+    
+        </aside>
+    </main>
+    <footer class="style1" id="credits">Footer here</footer>
+</body>
+</html>
